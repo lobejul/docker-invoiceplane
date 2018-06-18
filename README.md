@@ -1,6 +1,4 @@
-[![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/invoiceplane/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/invoiceplane)
-
-# sameersbn/invoiceplane:1.5.9
+# lobejul/invoiceplane:1.5.9
 
 - [Introduction](#introduction)
   - [Contributing](#contributing)
@@ -45,9 +43,7 @@ If the above recommendations do not help then [report your issue](../../issues/n
 
 ## Installation
 
-Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/sameersbn/invoiceplane) and is the recommended method of installation.
-
-> **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/invoiceplane)
+Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/lobejul/docker-invoiceplane) and is the recommended method of installation.
 
 ```bash
 docker pull lobejul/invoiceplane:1.5.9
