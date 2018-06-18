@@ -28,21 +28,9 @@ services:
     - INVOICEPLANE_URL=http://localhost:10080
     - INVOICEPLANE_PROXY_IPS=
     - INVOICEPLANE_BACKUPS_EXPIRY=0
+    ports:
+    - "10080:9000"
     depends_on:
     - mysql
     volumes:
     - /srv/docker/invoiceplane/invoiceplane:/var/lib/invoiceplane
-
-  nginx:
-    restart: always
-    image: lobejul/invoiceplane:1.5.9
-    command: app:nginx
-    environment:
-    - INVOICEPLANE_PHP_FPM_HOST=invoiceplane
-    - INVOICEPLANE_PHP_FPM_PORT=9000
-    depends_on:
-    - invoiceplane
-    ports:
-    - "10080:80"
-    volumes_from:
-    - invoiceplane

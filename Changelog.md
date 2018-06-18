@@ -1,3 +1,9 @@
+**1.5.9**
+- invoiceplane: upgrade to 1.5.9
+
+**1.5.8**
+- invoiceplane: upgrade to 1.5.8
+
 **1.5.5**
 - invoiceplane: upgrade to 1.5.5
 
